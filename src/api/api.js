@@ -1,14 +1,14 @@
 export const Api = {
-	baseUrl: "https://backend-rick-andmorty.herokuapp.com/personagens",
+	baseUrl: "https://backend-rick-andmorty.herokuapp.com",
 
-	createUrl: () => Api.baseUrl + "/",
+	createUrl: () => Api.baseUrl + "/create",
 
-	readAllUrl: () => Api.baseUrl + "/",
-	readSingleUrl: (id) => Api.baseUrl + "/" + id,
+	readAllUrl: () => Api.baseUrl + "/read_all",
+	readSingleUrl: (id) => Api.baseUrl + "/rea_by_id" + id,
 
-	updateUrl: (id) => Api.baseUrl + "/" + id,
+	updateUrl: (id) => Api.baseUrl + "/update" + id,
 
-	deleteUrl: (id) => Api.baseUrl + "/" + id,
+	deleteUrl: (id) => Api.baseUrl + "/delete" + id,
 	deleteAllUrl: () => Api.baseUrl + "/",
 
 	// Create
