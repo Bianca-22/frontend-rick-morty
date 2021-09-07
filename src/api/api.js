@@ -4,7 +4,7 @@ export const Api = {
 	createUrl: () => Api.baseUrl + "/create",
 
 	readAllUrl: () => Api.baseUrl + "/read_all",
-	readSingleUrl: (id) => Api.baseUrl + "/rea_by_id" + id,
+	readSingleUrl: (id) => Api.baseUrl + "/read_by_id" + id,
 
 	updateUrl: (id) => Api.baseUrl + "/update" + id,
 
